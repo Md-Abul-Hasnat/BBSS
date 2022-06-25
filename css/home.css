@@ -780,6 +780,10 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  .home-header .fa-xmark {
+    right: 40px;
+  }
+
   .home-topics .home-topics-body {
     width: 96%;
   }
@@ -789,8 +793,13 @@ body {
     width: 250px;
   }
 
+  .home-campus .home-campus-body {
+    padding: 5px;
+    gap: 15px;
+  }
+
   .home-campus .home-campus-body img {
-    width: 85%;
+    width: 90%;
     height: 85%;
   }
 
@@ -804,7 +813,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .home-campus .home-campus-body {
-    width: 80%;
+    width: 95%;
     grid-template-columns: 1fr;
     gap: 15px;
   }
@@ -816,6 +825,18 @@ body {
 
   .home-header ul li .nav-link {
     font-size: 13px;
+  }
+
+  .home-header .fa-xmark {
+    right: 40px;
+    font-size: 25px;
+  }
+
+  .footer .footer-body {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
   }
 }
 
