@@ -49,8 +49,8 @@
 
         <div class="navs">
           <ul>
-            <li><a href="#" class="nav-link active"> Home</a></li>
-            <li><a href="#" class="nav-link"> Cources</a></li>
+            <li><a href="home.html" class="nav-link active"> Home</a></li>
+            <li><a href="cources.html" class="nav-link"> Cources</a></li>
             <li><a href="#" class="nav-link"> About Us</a></li>
             <li><a href="#" class="nav-link"> Contact</a></li>
             <i class="fa-solid fa-xmark"></i>
@@ -348,6 +348,18 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="index.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 30,
+        grabCursor: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
 

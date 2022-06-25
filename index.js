@@ -23,16 +23,3 @@ navbar.addEventListener("click", function (e) {
     e.target.classList.add("active");
   }
 });
-
-//  Initialize Swiper -->
-
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  centeredSlides: false,
-  spaceBetween: 30,
-  grabCursor: false,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
