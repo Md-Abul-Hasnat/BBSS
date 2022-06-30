@@ -306,7 +306,7 @@ body {
 
 .footer .footer-body .socials i:hover {
   color: white;
-  font-size: 45px;
+  transform: scale(1.4);
 }
 
 .footer small {
@@ -357,16 +357,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .cources .cources-body {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 35px;
-    text-align: left;
-  }
-
   .footer .footer-body .socials {
     padding: 0px;
   }
@@ -431,12 +421,6 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  .cources h2 {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 0px 10px 30px;
   }
 
   .footer .footer-body {
