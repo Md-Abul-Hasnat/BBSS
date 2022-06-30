@@ -226,9 +226,9 @@ body {
   height: 80%;
 }
 
-.about-main-body .about-content p {
+.about-main-body .about-content .about-content-text p {
   text-align: justify;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.7;
 }
 
@@ -380,6 +380,12 @@ body {
 
   .about-main-body .about-content #mosque-img {
     height: 100%;
+  }
+
+  .about-main-body .about-content .about-content-text p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
   }
 
   .about-main-body .padding-bottom {
