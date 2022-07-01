@@ -15,7 +15,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(../img/ab.jpg);
+    url(../img/bg1.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
