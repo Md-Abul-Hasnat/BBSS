@@ -267,15 +267,15 @@ body {
   font-weight: 600;
   width: 90px;
   padding: 6px 10px;
-  background-color: #aed6f1;
+  background-color: #98c8e9;
   cursor: pointer;
   transition: 0.5s;
   border: 1px solid gray;
   border-radius: 5px;
 }
 
-.contact-form .contact-form-body form button :hover {
-  background-color: #85c1e9;
+.contact-form .contact-form-body form button:hover {
+  background-color: #569cca;
 }
 
 .contact-form .contact-form-body form textarea {
