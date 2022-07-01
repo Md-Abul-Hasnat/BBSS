@@ -266,6 +266,7 @@ body {
 .contact-form .contact-form-body form button {
   font-weight: 600;
   width: 90px;
+  padding: 6px 10px;
   background-color: #aed6f1;
   cursor: pointer;
   transition: 0.5s;
