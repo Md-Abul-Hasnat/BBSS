@@ -263,7 +263,7 @@ body {
   padding: 5px 10px;
 }
 
-.contact-form .contact-form-body form input[type="submit"] {
+.contact-form .contact-form-body form button {
   font-weight: 600;
   width: 90px;
   background-color: #aed6f1;
@@ -273,7 +273,7 @@ body {
   border-radius: 5px;
 }
 
-.contact-form .contact-form-body form input[type="submit"]:hover {
+.contact-form .contact-form-body form button :hover {
   background-color: #85c1e9;
 }
 
