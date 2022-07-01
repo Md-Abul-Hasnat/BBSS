@@ -172,15 +172,16 @@ body {
 
 .map {
   width: 100%;
-  margin: 120px 0;
+  margin-top: 120px;
 }
 
 .map .map-body {
-  width: 90%;
+  width: 95%;
   display: grid;
   grid-template-columns: 60% 40%;
   gap: 50px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .map-body .map-body-left h3 {
@@ -205,9 +206,10 @@ body {
 }
 
 .map .map-body .map-body-right p i {
-  background-color: rgb(101, 129, 182);
+  background-color: rgb(175, 184, 204);
   font-size: 20px;
-  padding: 5px;
+  padding: 6px;
+  margin: 0 5px;
   border-radius: 50%;
 }
 
@@ -217,6 +219,73 @@ body {
   padding: 10px 0;
 }
 /* map design end */
+
+/* contact form design start */
+
+.contact-form {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.contact-form .contact-form-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-form .contact-form-body h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contact-form .contact-form-body p {
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-form .contact-form-body form {
+  border: 1px solid gray;
+  padding: 35px;
+  background-color: #e3e6e7;
+}
+
+.contact-form .contact-form-body form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact-form .contact-form-body form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
+
+.contact-form .contact-form-body form a {
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: #aed6f1;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form .contact-form-body form a:hover {
+  background-color: #85c1e9;
+}
+
+.contact-form .contact-form-body form textarea {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+/* contact form design end */
 
 /* footer design start */
 
@@ -307,6 +376,19 @@ body {
   }
 }
 
+@media screen and (max-width: 850px) {
+  .map .map-body .map-body-right p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+
+  .map .map-body {
+    width: 95%;
+    gap: 30px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .footer .footer-body {
     width: 95%;
@@ -315,6 +397,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     text-align: center;
+  }
+
+  .map .map-body {
+    width: 85%;
+    grid-template-columns: 1fr;
+  }
+
+  .map .map-body .map-body-right p {
+    font-size: 19px;
   }
 
   .footer .footer-body .socials {
@@ -349,6 +440,33 @@ body {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .map .map-body .map-body-right p {
+    font-size: 15px;
+  }
+
+  .contact-form .contact-form-body form {
+    padding: 35px 15px;
+  }
+
+  .contact-form {
+    margin-top: 80px;
+  }
+
+  .contact-form .contact-form-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-form .contact-form-body form input::placeholder {
+    font-size: 14px;
+  }
+
+  .contact-form .contact-form-body form textarea::placeholder {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .home-header ul li .nav-link {
     font-size: 13px;
@@ -368,6 +486,10 @@ body {
     grid-template-columns: 1fr;
     gap: 20px;
     text-align: center;
+  }
+
+  .map .map-body {
+    width: 95%;
   }
 }
 
